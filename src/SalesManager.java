@@ -25,7 +25,7 @@ public class SalesManager {
         return min;
     }
     public long average(){
-        int average=0;
+        long average=0;
         for (int i = 0; i < sales.length; i++) {
             average+=sales[i];
         }
